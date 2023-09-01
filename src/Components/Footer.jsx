@@ -33,7 +33,11 @@ export default function Footer() {
         </div>
       </div>
       <form action="" className="md:flex md:flex-col items-start lg:flex mt-2">
-        <label htmlFor="email" className="font-bold mr-1 items-start flex">
+        <label
+          htmlFor="email"
+          id="email"
+          className="font-bold mr-1 items-start flex"
+        >
           Try TweetNow
         </label>
         <div>

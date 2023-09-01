@@ -1,4 +1,3 @@
-import logo from "../../Assets/Logo.svg";
 import checkmark from "../../Assets/Shield.svg";
 import mockup from "../../Assets/Mockup.png";
 import ua from "../../Assets/UA1.png";
@@ -9,20 +8,11 @@ import ua5 from "../../Assets/UA5.png";
 import ua6 from "../../Assets/UA6.png";
 import ua7 from "../../Assets/UA7.png";
 import ua8 from "../../Assets/UA8.png";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   return (
     <header className="p-5">
-      <nav className="flex items-center justify-between">
-        <div className="flex gap-4">
-          <img src={logo} alt="" />
-          <a href="/">Features</a>
-          <a href="/pricing">Pricing</a>
-        </div>
-        <button className="bg-blue-900 text-white p-2 font-bold rounded-md hover:opacity-80">
-          Start Scheduling
-        </button>
-      </nav>
       <section className="flex flex-col justify-between gap-10 mt-10 md:flex-row">
         <div>
           <h1 className="font-bold text-5xl text-blue-900 text-start w-96">

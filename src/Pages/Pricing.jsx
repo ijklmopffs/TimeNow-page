@@ -1,15 +1,13 @@
 import React from "react";
-import Header from "../Components/Header";
-import Middle from "../Components/Middle";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
+import PriceFeature from "../Components/PriceFeature";
 
-export default function Home() {
+export default function Pricing() {
   return (
     <>
       <Navbar />
-      <Header />
-      <Middle />
+      <PriceFeature />
       <Footer />
     </>
   );
